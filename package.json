@@ -1,9 +1,9 @@
 {
-  "name": "the_module_name_to_fill_in",
+  "name": "the-module-name-to-fill-in",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "https://github.com/hakatashi/the_module_name_to_fill_in.git",
+  "repository": "https://github.com/hakatashi/the-module-name-to-fill-in.git",
   "author": "Koki Takahashi <hakatasiloving@gmail.com>",
   "license": "MIT",
   "files": [

@@ -1,5 +1,7 @@
 # the-module-name-to-fill-in
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hakatashi/node-module-kickstarter.svg)](https://greenkeeper.io/)
+
 [![npm version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]

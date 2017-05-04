@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/hakatashi/node-module-kickstarter.git",
   "author": "Koki Takahashi <hakatasiloving@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "tcomb": "^3.2.20"
+  }
 }

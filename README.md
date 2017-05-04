@@ -14,7 +14,31 @@
 [david-dev-image]: https://david-dm.org/hakatashi/the-module-name-to-fill-in/dev-status.svg
 [david-dev-url]: https://david-dm.org/hakatashi/the-module-name-to-fill-in#info=devDependencies
 
-Blah blah.
+This is an almighty kickstarter (or template) to develop into node.js module, specially made for me.
+
+Features:
+
+* Static type checking by Flow
+* Runtime type checking by tcomb
+* Above two checks in one code. By babel-plugin-tcomb
+* ESLint
+* Babel
+* Mocha
+* Dynamic testing of README by readme-assert
+* Browser-side test and Server-side test in one code. By mochify
+* Editorconfig
+
+To start:
+
+	git clone https://github.com/hakatashi/node-module-kickstarter.git my-module
+	cd my-module
+	rm -rf .git
+	git init
+	git add .
+	git commit -m "Fork from hakatashi/node-module-kickstarter"
+	git ls-files | xargs sed -i -e "s/the-module-name-to-fill-in/my-module/g"
+	git ls-files | xargs sed -i -e "s/theModuleNameToFillIn/myModule/g"
+	git commit -am "Fit into my module"
 
 Supported: Node.js 4+
 

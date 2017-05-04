@@ -1,0 +1,8 @@
+{
+  "name": "node-module-kickstarter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hakatashi/node-module-kickstarter.git",
+  "author": "Koki Takahashi <hakatasiloving@gmail.com>",
+  "license": "MIT"
+}

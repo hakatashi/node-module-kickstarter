@@ -1,10 +1,21 @@
 {
-  "name": "node-module-kickstarter",
+  "name": "<module-name>",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/hakatashi/node-module-kickstarter.git",
+  "repository": "https://github.com/hakatashi/<module-name>.git",
   "author": "Koki Takahashi <hakatasiloving@gmail.com>",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "flow": "flow index.babel.js",
+    "build": "babel index.babel.js -o index.js",
+    "test": "npm run flow && npm run mochify && npm run readme-assert",
+    "prepublish": "in-publish && npm run build || not-in-publish",
+    "readme-assert": "npm run build && readme-assert -p",
+    "mochify": "mochify \"test/*.ls\" --reporter spec --transform browserify-livescript --transform babelify --node"
+  },
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "tcomb": "^3.2.20"

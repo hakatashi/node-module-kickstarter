@@ -4,6 +4,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][david-image]][david-url]
 [![devDependency Status][david-dev-image]][david-dev-url]
+[![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
 [npm-image]: https://img.shields.io/npm/v/the-module-name-to-fill-in.svg
 [npm-url]: https://www.npmjs.com/package/the-module-name-to-fill-in
@@ -13,6 +14,8 @@
 [david-url]: https://david-dm.org/hakatashi/the-module-name-to-fill-in
 [david-dev-image]: https://david-dm.org/hakatashi/the-module-name-to-fill-in/dev-status.svg
 [david-dev-url]: https://david-dm.org/hakatashi/the-module-name-to-fill-in#info=devDependencies
+[greenkeeper-image]: https://badges.greenkeeper.io/hakatashi/the-module-name-to-fill-in.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
 This is an almighty kickstarter (or template) to develop into node.js module, specially made for me.
 

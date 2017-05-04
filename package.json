@@ -11,8 +11,9 @@
   ],
   "scripts": {
     "flow": "flow index.babel.js",
+    "eslint": "eslint . --ignore-path .gitignore",
     "build": "babel index.babel.js -o index.js",
-    "test": "npm run flow && npm run mochify && npm run readme-assert",
+    "test": "npm run flow && npm run mochify && npm run eslint && npm run readme-assert",
     "prepublish": "in-publish && npm run build || not-in-publish",
     "readme-assert": "npm run build && readme-assert -p",
     "mochify": "mochify \"test/*.ls\" --reporter spec --transform browserify-livescript --transform babelify --node"

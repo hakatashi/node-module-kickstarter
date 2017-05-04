@@ -1,6 +1,7 @@
 {
   "name": "<module-name>",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "repository": "https://github.com/hakatashi/<module-name>.git",
   "author": "Koki Takahashi <hakatasiloving@gmail.com>",

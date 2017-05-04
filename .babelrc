@@ -1,0 +1,23 @@
+{
+	"presets": [
+		["env", {
+			"targets": {
+				"node": 4
+			},
+			"modules": "commonjs"
+		}]
+	],
+	"plugins" : [
+		"syntax-flow",
+		"tcomb",
+		"transform-flow-strip-types",
+		"transform-runtime"
+	],
+	"env": {
+		"coverage": {
+			"plugins": [
+				"transform-flow-strip-types"
+			]
+		}
+	}
+}

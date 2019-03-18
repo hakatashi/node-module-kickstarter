@@ -34,7 +34,7 @@
     "babelify": "^8.0.0",
     "browserify-livescript": "^0.2.3",
     "chai": "^4.0.1",
-    "eslint": "^4.1.0",
+    "eslint": "^5.15.3",
     "eslint-plugin-flowtype": "^2.32.1",
     "flow-bin": "^0.63.1",
     "in-publish": "^2.0.0",

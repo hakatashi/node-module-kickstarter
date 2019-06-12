@@ -40,6 +40,6 @@
     "in-publish": "^2.0.0",
     "mocha": "^4.0.0",
     "mochify": "^4.0.0",
-    "readme-assert": "^5.0.5"
+    "readme-assert": "^6.0.3"
   }
 }
